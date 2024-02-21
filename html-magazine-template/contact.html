@@ -73,7 +73,7 @@
                         </button>
                         <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
                             <div class="navbar-nav mx-auto border-top">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <a href="index.html" class="nav-item nav-link">Home</a>
                                 <a href="detail-page.html" class="nav-item nav-link">City</a>
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Locations</a>
@@ -91,7 +91,7 @@
                             
                                     </div>
                                 </div>
-                                <a href="contact.html" class="nav-item nav-link">CitizenReport</a>
+                                <a href="contact.html" class="nav-item nav-link active">CitizenReport</a>
                                 <a href="footer.html" class="nav-item nav-link">ContactUs</a>
                             </div>
                             <div class="d-flex flex-nowrap border-top pt-3 pt-xl-0">
@@ -147,7 +147,7 @@
                                 <p class="mb-4">Connecting people across Bengaluru. Whether it's highlighting environmental challenges, social injustices, or community achievements, Citizen Reporters empower their fellow citizens to be more informed, proactive, and engaged in shaping the narrative of their shared experiences.</p>
                                 <div class="rounded">
                                     <iframe class="rounded w-100" 
-                                    style="height: 425px;" src="https://pbs.twimg.com/media/ETtO54dUMAEOr-s.jpg" 
+                                    style="height: 300px;" src="https://pbs.twimg.com/media/ETtO54dUMAEOr-s.jpg" 
                                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
@@ -165,51 +165,24 @@
                                         <input type="text" class="w-100 form-control border-0 py-3" name="phone" placeholder="Enter Your Phone">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" class="w-100 form-control border-0 py-3" name="Sunject" placeholder="Subject">
+                                        <input type="text" class="w-100 form-control border-0 py-3" name="Location" placeholder="Enter Location">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="w-100 form-control border-0 py-3" name="Date and Time" placeholder="Enter Date and time">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="w-100 form-control border-0 py-3" name="Heading" placeholder="Heading">
                                     </div>
                                     <div class="col-12">
-                                        <textarea class="w-100 form-control border-0" rows="6" cols="10" placeholder="Your Report"></textarea>
+                                        <textarea type="text" class="w-100 form-control border-0" rows="10" cols="10" name="Report" placeholder="Your Report"></textarea>
                                     </div>
+                                    
                                     <div class="col-12">
                                         <button class="w-100 btn btn-primary form-control py-3" type="submit">Submit Now</button>
                                     </div>
                                 </div>
                             </form>
-                            <div class="row g-4">
-                                <div class="col-xl-6">
-                                    <div class="d-flex p-4 rounded bg-white">
-                                        <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
-                                        <div>
-                                            <h4>Address</h4>
-                                            <p class="mb-0">Dayananda Sagar Academy Of Technology And Management, Kanakapura</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="d-flex p-4 rounded bg-white">
-                                        <i class="fas fa-envelope fa-2x text-primary me-4"></i>
-                                        <div>
-                                            <h4>Mail Us</h4>
-                                            <p class="mb-0">info@example.com</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="d-flex p-4 rounded bg-white">
-                                        <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
-                                        <div>
-                                            <h4>Telephone</h4>
-                                            <p class="mb-0">(+012) 3456 7890</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="d-flex p-4 rounded bg-white">
-                                        <i class="fa fa-share-alt fa-2x text-primary me-4"></i>
-                                       
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -220,12 +193,12 @@
         
         <!-- Footer Start -->
         <div class="container-fluid bg-dark footer py-5">
-            <div class="container py-5">
+            <dsiv class="container py-5">
                 <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
                     <div class="row g-4">
                         <div class="col-lg-3">
                             <a href="#" class="d-flex flex-column flex-wrap">
-                                <p class="text-white mb-0 display-6">HyperLocal News Bengaluru</p>
+                                <p class="text-white mb-0 display-6">HyperLocal_News</p>
                             </a>
                         </div>
                         
@@ -241,18 +214,6 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-6 col-xl-3">
-                        <div class="d-flex flex-column text-start footer-item-3">
-                            <h4 class="mb-4 text-white">Categories</h4>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i>Local News Articles </a>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i>Event Calendar</a>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i>Community Spotlights</a>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i>Community Forum</a>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i>User-Generated Content</a>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i> Business Directory</a>
-                            <a class="btn-link text-white" href=""><i class="fas fa-angle-right text-white me-2"></i>Weather Updates</a>
-                        </div>
-                    </div>
                     <div class="col-lg-6 col-xl-3">
                         <div class="footer-item-4">
                             <h4 class="mb-4 text-white">Our Gallary</h4>
